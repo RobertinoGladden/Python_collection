@@ -25,4 +25,14 @@ else:
     print("Tidak Ditemukan")
 
 # Tambahkan data pada dictionary “Soulvaki” dengan nilai 1993
-#UNFINISHED
+albumSong['Soulvaki'] = 1993
+print(albumSong)
+
+# Hitung banyaknya value pada dictionary
+print(len(albumSong))
+
+# Check 1992 terdapat pada dictionary kemudian print pesan “Data 1992 ditemukan”
+if 1992 in albumSong.values() :
+    print('Data 1992 ditemukan')
+else :
+    print('Data 1992 tidak ditemukan')
