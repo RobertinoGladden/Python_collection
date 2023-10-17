@@ -6,6 +6,6 @@ def fibonacci(n):
         a, b = b, a + b
     return urutan
 
-n = 100  #Bisa diganti
-fib_sequence = fibonacci(n)
-print(fib_sequence)
+n = 50  #Bisa diganti
+hasil = fibonacci(n)
+print(hasil)
